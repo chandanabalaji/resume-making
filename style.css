@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('pic1.jpg');
+	font-family: "DM Sans", sans-serif;
+	line-height: 1.5;
+	padding: 0 10rem;
+}
+
+input {
+	appearance: none;
+	border-radius: 5px;
+}
+
+.card {
+	margin: 0rem auto;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 425px;
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px 0 rgba(rgb(145, 9, 122), .25);
+	padding: .75rem;
+}
+.card-form {
+	padding: 2rem 1rem 0;
+}
+
+.input {
+	display: flex;
+	flex-direction: column-reverse;
+	position: relative;
+	padding-top: 1.5rem;
+}
+
+.input-label {
+	color: #5c0e55;
+	position: absolute;
+	top: 1.5rem;
+}
+
+.input-field {
+	border: 0;
+    width: 50%;
+	z-index: 1;
+	background-color: rgb(186, 117, 255);
+	border-bottom: 2px solid #eee;
+	font: inherit;
+	font-size: 1.125rem;
+	padding: .25rem 0;
+}
+.action {
+	margin-top: 2rem;
+}
+
+.action-button {
+	font: inherit;
+	font-size: 1.25rem;
+	padding: 1em;
+	width: 50%;
+	font-weight: 500;
+	background-color: #6658d3;
+	border-radius: 6px;
+	color: #FFF;
+	border: 0;
+}
+
+.card-info {
+	padding: 1rem 1rem;
+	text-align: center;
+	font-size: .875rem;
+	color: #8597a3;
+}
